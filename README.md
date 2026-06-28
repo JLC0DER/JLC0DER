@@ -60,7 +60,7 @@ For the last stretch I've been moving deliberately into **AI engineering** — n
 
 ## How I think about an AI system
 
-The pattern behind most of my work — retrieval grounded in real sources, with citations as a first-class output, not an afterthought.
+The pattern behind most of my work, retrieval grounded in real sources, with citations as a first-class output, not an afterthought.
 
 <p align="center">
   <img src="assets/rag-architecture.svg" alt="RAG architecture: query, embed, vector DB, retrieve, context, LLM, answer with citations, and an eval feedback loop" width="860"/>
@@ -84,7 +84,7 @@ Right now I'm going deep on the engineering layer of AI products:
 
 ## Learning roadmap
 
-A systems view of where I'm heading — foundations to production.
+A systems view of where I'm heading, foundations to production.
 
 <p align="center">
   <img src="assets/roadmap.svg" alt="Roadmap: Foundations, Retrieval, Agents (current), Evaluation, Production" width="860"/>
