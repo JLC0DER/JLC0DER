@@ -1,6 +1,6 @@
 <div align="center">
 
-# José Luis
+# José Luis Sanchez
 
 <a href="https://github.com/JLC0DER">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=620&lines=AI+Product+Designer;AI+Engineer;Enterprise+AI+Builder;Designing+intelligent+systems%2C+end+to+end" alt="AI Product Designer · AI Engineer · Enterprise AI Builder" />
