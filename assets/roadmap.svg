@@ -1,0 +1,58 @@
+<svg width="960" height="220" viewBox="0 0 960 220" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0c12"/>
+    </linearGradient>
+    <linearGradient id="rail" x1="90" y1="0" x2="870" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <radialGradient id="dot" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8aa9ff"/>
+      <stop offset="1" stop-color="#6d7ce0"/>
+    </radialGradient>
+    <filter id="glow" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="959" height="219" rx="16" fill="url(#bg)" stroke="#222a35"/>
+  <text x="32" y="34" font-size="11" letter-spacing="2.5" fill="#6e7681" font-weight="700">03 · ROADMAP</text>
+
+  <!-- rail: solid (done/now) then dim (upcoming) -->
+  <line x1="90" y1="150" x2="480" y2="150" stroke="url(#rail)" stroke-width="2.5"/>
+  <line x1="480" y1="150" x2="870" y2="150" stroke="#2b3340" stroke-width="2"/>
+
+  <!-- 01 Foundations -->
+  <text x="90" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#7c93e8" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">01</text>
+  <text x="90" y="80" text-anchor="middle" font-size="14.5" font-weight="600" fill="#e6edf3">Foundations</text>
+  <text x="90" y="100" text-anchor="middle" font-size="10" fill="#6e7681" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Python · FastAPI</text>
+  <circle cx="90" cy="150" r="8" fill="url(#dot)" stroke="#0d1117" stroke-width="2"/>
+
+  <!-- 02 Retrieval -->
+  <text x="285" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#7c93e8" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">02</text>
+  <text x="285" y="80" text-anchor="middle" font-size="14.5" font-weight="600" fill="#e6edf3">Retrieval</text>
+  <text x="285" y="100" text-anchor="middle" font-size="10" fill="#6e7681" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">RAG · Vector DBs</text>
+  <circle cx="285" cy="150" r="8" fill="url(#dot)" stroke="#0d1117" stroke-width="2"/>
+
+  <!-- 03 Agents (current) -->
+  <text x="480" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#a371f7" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">03</text>
+  <text x="480" y="80" text-anchor="middle" font-size="14.5" font-weight="700" fill="#ffffff">Agents</text>
+  <text x="480" y="100" text-anchor="middle" font-size="10" fill="#8aa9ff" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">LangGraph · MCP</text>
+  <circle cx="480" cy="150" r="10" fill="#a371f7" stroke="#0d1117" stroke-width="2" filter="url(#glow)"/>
+  <text x="480" y="182" text-anchor="middle" font-size="9.5" letter-spacing="2" fill="#a371f7" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">NOW</text>
+
+  <!-- 04 Evaluation -->
+  <text x="675" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#565d68" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">04</text>
+  <text x="675" y="80" text-anchor="middle" font-size="14.5" font-weight="600" fill="#9aa4b2">Evaluation</text>
+  <text x="675" y="100" text-anchor="middle" font-size="10" fill="#565d68" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">AI Eval · Guardrails</text>
+  <circle cx="675" cy="150" r="7" fill="#161b22" stroke="#3a424e" stroke-width="2"/>
+
+  <!-- 05 Production -->
+  <text x="870" y="58" text-anchor="middle" font-size="11" font-weight="700" fill="#565d68" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">05</text>
+  <text x="870" y="80" text-anchor="middle" font-size="14.5" font-weight="600" fill="#9aa4b2">Production</text>
+  <text x="870" y="100" text-anchor="middle" font-size="10" fill="#565d68" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">Local LLM Infra</text>
+  <circle cx="870" cy="150" r="7" fill="#161b22" stroke="#3a424e" stroke-width="2"/>
+</svg>

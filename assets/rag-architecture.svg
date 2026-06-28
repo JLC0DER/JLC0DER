@@ -1,0 +1,94 @@
+<svg width="1020" height="320" viewBox="0 0 1020 320" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a0c12"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b222c"/>
+      <stop offset="1" stop-color="#13191f"/>
+    </linearGradient>
+    <linearGradient id="cyl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#15241b"/>
+      <stop offset="1" stop-color="#101a14"/>
+    </linearGradient>
+    <linearGradient id="llmFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#20283a"/>
+      <stop offset="1" stop-color="#161d2a"/>
+    </linearGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#7c93e8"/>
+    </marker>
+    <marker id="arrowV" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6.5,3 L0,6 Z" fill="#a371f7"/>
+    </marker>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="1019" height="319" rx="16" fill="url(#bg)" stroke="#222a35"/>
+  <text x="32" y="36" font-size="11" letter-spacing="2.5" fill="#6e7681" font-weight="700">02 · RETRIEVAL ARCHITECTURE</text>
+
+  <!-- main arrows -->
+  <line x1="154" y1="116" x2="171" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="293" y1="116" x2="335" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="407" y1="116" x2="450" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="566" y1="116" x2="589" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="705" y1="116" x2="728" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="845" y1="116" x2="868" y2="116" stroke="#7c93e8" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- feedback loop (dashed) -->
+  <path d="M788.67,148 C788,192 782,214 772,236" fill="none" stroke="#a371f7" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#arrowV)"/>
+  <text x="812" y="200" font-size="9.5" letter-spacing="1" fill="#a371f7" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">evaluate</text>
+  <path d="M668,236 C660,210 654,188 650,152" fill="none" stroke="#a371f7" stroke-width="1.3" stroke-dasharray="4 4" marker-end="url(#arrowV)"/>
+  <text x="566" y="200" font-size="9.5" letter-spacing="1" fill="#8b6fd6" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">feedback</text>
+
+  <!-- n1 User query -->
+  <rect x="36" y="84" width="112" height="64" rx="12" fill="url(#node)" stroke="#3b5a86"/>
+  <text x="92" y="120" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">User query</text>
+
+  <!-- n2 Embed -->
+  <rect x="175.33" y="84" width="112" height="64" rx="12" fill="url(#node)" stroke="#2b3340"/>
+  <text x="231.33" y="120" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">Embed</text>
+
+  <!-- n3 Vector DB (cylinder) -->
+  <g stroke="#2f7a47" stroke-width="1.4" fill="url(#cyl)">
+    <path d="M336.67,92 v48 a34,8 0 0 0 68,0 v-48" />
+    <ellipse cx="370.67" cy="92" rx="34" ry="8"/>
+  </g>
+  <ellipse cx="370.67" cy="106" rx="26" ry="5.5" fill="none" stroke="#2f7a47" stroke-width="1" opacity="0.6"/>
+  <ellipse cx="370.67" cy="120" rx="26" ry="5.5" fill="none" stroke="#2f7a47" stroke-width="1" opacity="0.45"/>
+  <text x="370.67" y="166" text-anchor="middle" font-size="11.5" font-weight="600" fill="#5fc77f">Vector DB</text>
+
+  <!-- n4 Retrieve & rerank -->
+  <rect x="454" y="84" width="112" height="64" rx="12" fill="url(#node)" stroke="#2b3340"/>
+  <text x="510" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">Retrieve</text>
+  <text x="510" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">&amp; rerank</text>
+
+  <!-- n5 Context + prompt -->
+  <rect x="593.33" y="84" width="112" height="64" rx="12" fill="url(#node)" stroke="#2b3340"/>
+  <text x="649.33" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">Context</text>
+  <text x="649.33" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">+ prompt</text>
+
+  <!-- n6 LLM (highlight) -->
+  <rect x="732.67" y="84" width="112" height="64" rx="12" fill="url(#llmFill)" stroke="url(#accent)" stroke-width="1.6" filter="url(#glow)"/>
+  <path d="M788.67,99 l3.2,7.6 l7.6,3.2 l-7.6,3.2 l-3.2,7.6 l-3.2,-7.6 l-7.6,-3.2 l7.6,-3.2 z" fill="#8aa9ff"/>
+  <text x="788.67" y="138" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">LLM</text>
+
+  <!-- n7 Answer + citations -->
+  <rect x="872" y="84" width="112" height="64" rx="12" fill="url(#node)" stroke="#2f7a47"/>
+  <text x="928" y="112" text-anchor="middle" font-size="12.5" font-weight="600" fill="#e6edf3">Answer</text>
+  <text x="928" y="130" text-anchor="middle" font-size="12.5" font-weight="600" fill="#5fc77f">+ citations</text>
+
+  <!-- eval node -->
+  <rect x="644" y="236" width="152" height="52" rx="12" fill="url(#node)" stroke="#5a3f8f"/>
+  <path d="M658,250 l8,-3.5 l8,3.5 v7 c0,6 -4.5,9.5 -8,10.5 c-3.5,-1 -8,-4.5 -8,-10.5 z" fill="none" stroke="#a371f7" stroke-width="1.3"/>
+  <text x="730" y="259" text-anchor="middle" font-size="12" font-weight="600" fill="#e6edf3">Eval</text>
+  <text x="730" y="275" text-anchor="middle" font-size="9.5" letter-spacing="1" fill="#a371f7" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace">GUARDRAILS</text>
+</svg>
