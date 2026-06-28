@@ -165,8 +165,8 @@ flowchart LR
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username={{USERNAME}}&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=8B949E&text_color=e6edf3&hide=contribs&count_private=true" alt="GitHub stats" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username={{USERNAME}}&layout=compact&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=e6edf3&langs_count=8" alt="Top languages" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=JLC0DER&show_icons=true&hide_border=true&bg_color=0D1117&title_color=58a6ff&icon_color=8B949E&text_color=e6edf3&hide=contribs&count_private=true" alt="GitHub stats" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JLC0DER&layout=compact&hide_border=true&bg_color=0D1117&title_color=58a6ff&text_color=e6edf3&langs_count=8" alt="Top languages" />
 
 </div>
 
