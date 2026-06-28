@@ -29,7 +29,7 @@
 
 ## The bridge I build on
 
-I don't sit inside a single discipline. I connect them — from the business problem all the way down to the running system.
+I don't sit inside a single discipline. I connect them, from the business problem all the way down to the running system.
 
 <p align="center">
   <img src="assets/bridge.svg" alt="Business to UX to AI to Engineering" width="860"/>
