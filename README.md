@@ -94,16 +94,36 @@ A systems view of where I'm heading, foundations to production.
 
 ## Tech stack
 
-**AI & LLMs**
+**Models**
 
-![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=flat-square&logo=openai&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-0D1117?style=flat-square)
 ![Anthropic](https://img.shields.io/badge/Anthropic-0D1117?style=flat-square&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-0D1117?style=flat-square&logo=googlegemini&logoColor=white)
+![DeepSeek](https://img.shields.io/badge/DeepSeek-0D1117?style=flat-square&logo=deepseek&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-0D1117?style=flat-square)
+![Llama](https://img.shields.io/badge/Llama-0D1117?style=flat-square&logo=meta&logoColor=white)
 ![Ollama](https://img.shields.io/badge/Ollama-0D1117?style=flat-square&logo=ollama&logoColor=white)
+
+**Orchestration & routing**
+
 ![LangGraph](https://img.shields.io/badge/LangGraph-0D1117?style=flat-square&logo=langchain&logoColor=white)
-![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0D1117?style=flat-square&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=flat-square&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-0D1117?style=flat-square&logo=pinecone&logoColor=white)
+![LlamaIndex](https://img.shields.io/badge/LlamaIndex-0D1117?style=flat-square)
+![LiteLLM](https://img.shields.io/badge/LiteLLM-0D1117?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-0D1117?style=flat-square&logo=modelcontextprotocol&logoColor=white)
+![A2A Protocol](https://img.shields.io/badge/A2A_Protocol-0D1117?style=flat-square)
+
+**Retrieval & memory**
+
+![Qdrant](https://img.shields.io/badge/Qdrant-0D1117?style=flat-square&logo=qdrant&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-0D1117?style=flat-square)
+![Pinecone](https://img.shields.io/badge/Pinecone-0D1117?style=flat-square)
+![mem0](https://img.shields.io/badge/mem0-0D1117?style=flat-square)
+
+**Evaluation & observability**
+
+![LangSmith](https://img.shields.io/badge/LangSmith-0D1117?style=flat-square&logo=langchain&logoColor=white)
+![Ragas](https://img.shields.io/badge/Ragas-0D1117?style=flat-square)
+![SPLX](https://img.shields.io/badge/SPLX-0D1117?style=flat-square)
 
 **Backend & data**
 
