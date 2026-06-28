@@ -2,10 +2,10 @@
   ─────────────────────────────────────────────────────────────
   README de perfil · José Luis
   Antes de publicar, reemplaza los marcadores entre {{ }}:
-    {{USERNAME}}   → tu usuario de GitHub
-    {{LINKEDIN}}   → la parte final de tu URL de LinkedIn (linkedin.com/in/XXXX)
-    {{PORTFOLIO}}  → la URL de tu portfolio
-    {{EMAIL}}      → tu correo
+    JLC0DER  → tu usuario de GitHub
+    jose-luis-sanchez-espada   → la parte final de tu URL de LinkedIn (linkedin.com/in/XXXX)
+    https://joseluisproducts.framer.website/  → la URL de tu portfolio
+    joseluissanchezproduct@gmail.com      → tu correo
     {{X}}          → tu usuario de X/Twitter (opcional)
   ─────────────────────────────────────────────────────────────
 -->
@@ -14,7 +14,7 @@
 
 # José Luis
 
-<a href="https://github.com/{{USERNAME}}">
+<a href="https://github.com/JLC0DER">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3200&pause=900&color=8B949E&center=true&vCenter=true&width=620&lines=AI+Product+Designer;AI+Engineer;Enterprise+AI+Builder;Designing+intelligent+systems%2C+end+to+end" alt="AI Product Designer · AI Engineer · Enterprise AI Builder" />
 </a>
 
@@ -27,9 +27,9 @@
 </p>
 
 <p>
-  <a href="https://linkedin.com/in/{{LINKEDIN}}"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://linkedin.com/in/jose-luis-sanchez-espada"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <a href="https://{{PORTFOLIO}}"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=flat-square&logo=vercel&logoColor=white" alt="Portfolio"/></a>
-  <a href="mailto:{{EMAIL}}"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
+  <a href="mailto:joseluissanchezproduct@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=white" alt="Email"/></a>
   <a href="https://x.com/{{X}}"><img src="https://img.shields.io/badge/X-0D1117?style=flat-square&logo=x&logoColor=white" alt="X"/></a>
 </p>
 
@@ -186,6 +186,6 @@ Enterprise AI · RAG · Agentic AI · LLM evaluation · Knowledge retrieval · A
 
 <br/><br/>
 
-<a href="https://linkedin.com/in/{{LINKEDIN}}"><img src="https://img.shields.io/badge/Let's_talk-0D1117?style=flat-square&logo=linkedin&logoColor=white" alt="Let's talk"/></a>
+<a href="https://linkedin.com/in/jose-luis-sanchez-espada"><img src="https://img.shields.io/badge/Let's_talk-0D1117?style=flat-square&logo=linkedin&logoColor=white" alt="Let's talk"/></a>
 
 </div>
